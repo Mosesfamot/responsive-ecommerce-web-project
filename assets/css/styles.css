@@ -1,11 +1,18 @@
 /*=============== GOOGLE FONTS ===============*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Spartan:wght@400;500;600;700&display=swap');
 
+/*=============== GOOGLE FONTS ===============*/
+
+
+
 /*=============== VARIABLES CSS ===============*/
+
 :root {
   --header-height: 4rem;
 
   /*========== Colors ==========*/
+
   /* Color mode HSL(hue, saturation, lightness) */
   --first-color: hsl(176, 88%, 27%);
   --first-color-alt: hsl(129, 44%, 94%);
@@ -18,7 +25,10 @@
   --border-color: hsl(129, 36%, 85%);
   --border-color-alt: hsl(113, 15%, 90%);
 
+  /*========== Colors ==========*/
+
   /*========== Font and typography ==========*/
+
   /* .5rem = 8px | 1rem = 16px ... */
   --body-font: 'Lato', san-serif;
   --second-font: 'League Spartan', san-serif;
@@ -33,17 +43,32 @@
   --smaller-font-size: 0.75rem;
   --tiny-font-size: 0.6875rem;
 
+  /*========== Font and typography ==========*/
+
   /*========== Font weight ==========*/
+
   --weight-400: 400;
   --weight-500: 500;
   --weight-600: 600;
   --weight-700: 700;
 
+  /*========== Font weight ==========*/
+
   /*========== Transition ==========*/
+
   --transition: cubic-bezier(0, 0, 0.05, 1);
+
+  /*========== Transition ==========*/
+  
 }
 
+/*=============== VARIABLES CSS ===============*/
+
+
+
+
 /* Responsive typography */
+
 @media screen and (max-width: 1200px) {
   :root {
     --big-font-size: ;
@@ -59,7 +84,11 @@
   }
 }
 
+/* Responsive typography */
+
+
 /*=============== BASE ===============*/
+
 * {
   margin: 0;
   padding: 0;
@@ -108,9 +137,16 @@ input {
   border: none;
   outline: none;
 }
+
+/*=============== BASE ===============*/
+
+
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 
+
 /*=============== HEADER & NAV ===============*/
+.header__top
 
 /* Active link */
 
@@ -160,24 +196,40 @@ input {
 
 /*=============== ACCOUNTS ===============*/
 
+
+
 /*=============== BREAKPOINTS ===============*/
+
 /* For large devices */
+
 @media screen and (max-width: 1400px) {
 }
 
 @media screen and (max-width: 1200px) {
 }
 
+/* For large devices */
+
+
 /* For medium devices */
+
 @media screen and (max-width: 992px) {
 }
 
 @media screen and (max-width: 768px) {
 }
 
+/* For medium devices */
+
+
 /* For small devices */
+
 @media screen and (max-width: 576px) {
 }
 
 @media screen and (max-width: 350px) {
 }
+
+/* For small devices */
+
+/*=============== BREAKPOINTS ===============*/
