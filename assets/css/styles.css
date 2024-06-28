@@ -40,7 +40,7 @@
   --weight-700: 700;
 
   /*========== Transition ==========*/
-  --transition: ;
+  --transition: cubic-bezier(0, 0, 0.05, 1);
 }
 
 /* Responsive typography */
@@ -60,6 +60,17 @@
 }
 
 /*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+body {
+  
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 
