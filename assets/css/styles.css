@@ -69,9 +69,45 @@
 input,
 textarea,
 body {
-  
+  color: var(--text-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-400);
 }
 
+body {
+  background-color: var(--body-color);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--second-font);
+  color: var(--title-color);
+  font-weight: var(--weight-600);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+textarea,
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== HEADER & NAV ===============*/
