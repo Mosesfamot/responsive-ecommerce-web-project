@@ -191,6 +191,12 @@ input {
 .nav__list,
 .header__user-actions {
   display: flex;
+  align-items: center;
+}
+
+.nav {
+  height: calc(var(--header-height) + 2.5rem);
+  justify-content: space-between;
 }
 
 .nav__logo-img {
