@@ -443,6 +443,10 @@ input {
   cursor: pointer;
 }
 
+.products__container {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 
 /* Active Tab */
 
